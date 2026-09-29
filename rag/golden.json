@@ -1,0 +1,92 @@
+{
+  "questions": [
+    {
+      "question": "What rules apply to manual stock adjustments?",
+      "expected_sources": ["02-business-rules/inventory-rules.md"]
+    },
+    {
+      "question": "Which permission is required to create a stock adjustment?",
+      "expected_sources": ["06-api/inventory-api.md", "05-security/authorization-rbac.md"]
+    },
+    {
+      "question": "How should the system prevent negative stock balance?",
+      "expected_sources": ["02-business-rules/inventory-rules.md"]
+    },
+    {
+      "question": "What happens when a delivery is voided and what must it preserve?",
+      "expected_sources": ["06-api/delivery-api.md"]
+    },
+    {
+      "question": "Which permission is needed to void a delivery?",
+      "expected_sources": ["06-api/delivery-api.md", "05-security/authorization-rbac.md"]
+    },
+    {
+      "question": "Which roles can void a posted invoice?",
+      "expected_sources": ["05-security/authorization-rbac.md"]
+    },
+    {
+      "question": "How is the customer credit limit enforced?",
+      "expected_sources": ["02-business-rules/customer-credit-rules.md"]
+    },
+    {
+      "question": "What is the ledger effect of a successful payment?",
+      "expected_sources": ["02-business-rules/payment-rules.md"]
+    },
+    {
+      "question": "What information must a credit adjustment record?",
+      "expected_sources": ["02-business-rules/customer-credit-rules.md"]
+    },
+    {
+      "question": "Are posted financial and inventory transactions allowed to be deleted?",
+      "expected_sources": ["02-business-rules/core-business-rules.md"]
+    },
+    {
+      "question": "How should passwords be stored?",
+      "expected_sources": ["05-security/authentication.md"]
+    },
+    {
+      "question": "Which events must generate an audit record?",
+      "expected_sources": ["05-security/audit-logging.md"]
+    },
+    {
+      "question": "What are the application roles described in the system?",
+      "expected_sources": ["05-security/authorization-rbac.md"]
+    },
+    {
+      "question": "What is the deny-by-default authorization principle?",
+      "expected_sources": ["05-security/authorization-rbac.md"]
+    },
+    {
+      "question": "How does a return transaction affect inventory?",
+      "expected_sources": ["02-business-rules/return-rules.md"]
+    },
+    {
+      "question": "What are the delivery state transition rules?",
+      "expected_sources": ["08-workflows/transaction-states.md"]
+    },
+    {
+      "question": "What indexing and concurrency protections are required for the database?",
+      "expected_sources": ["04-database/indexing-concurrency.md"]
+    },
+    {
+      "question": "How should the API respond on validation errors?",
+      "expected_sources": ["06-api/api-contract.md"]
+    },
+    {
+      "question": "What are the backup and recovery objectives?",
+      "expected_sources": ["10-deployment/backup-recovery-runbook.md"]
+    },
+    {
+      "question": "Which features are in the initial MVP boundary?",
+      "expected_sources": ["11-project/mvp-boundary.md"]
+    },
+    {
+      "question": "What rules govern employee financial activity?",
+      "expected_sources": ["02-business-rules/employee-rules.md"]
+    },
+    {
+      "question": "What is included in the audit trail for sensitive operations?",
+      "expected_sources": ["05-security/audit-logging.md"]
+    }
+  ]
+}
